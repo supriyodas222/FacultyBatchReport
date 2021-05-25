@@ -1,0 +1,6 @@
+CREATE table "BATCHREC" (
+    "BID"           VARCHAR2(20) NOT NULL,
+    "DATE1"         VARCHAR2(20) NOT NULL,
+    "TOPICSCOVERED" VARCHAR2(20) NOT NULL
+)
+/

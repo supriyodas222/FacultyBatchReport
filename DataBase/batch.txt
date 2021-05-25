@@ -1,0 +1,12 @@
+CREATE table "BATCH" (
+    "BID"        VARCHAR2(20),
+    "BNAME"      VARCHAR2(20) NOT NULL,
+    "STARTDATE"  VARCHAR2(20) NOT NULL,
+    "ENDDATE"    VARCHAR2(20) NOT NULL,
+    "DAYS"       VARCHAR2(20) NOT NULL,
+    "TIME"       VARCHAR2(20) NOT NULL,
+    "VENUE"      VARCHAR2(20) NOT NULL,
+    "USERNAME"   VARCHAR2(20) NOT NULL,
+    constraint  "BATCH_PK" primary key ("BID")
+)
+/
